@@ -1,0 +1,12 @@
+# API key - never commit this
+.env
+
+# Graph cache - rebuilds automatically, no need to commit
+graph_cache.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
