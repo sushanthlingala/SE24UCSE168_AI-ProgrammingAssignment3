@@ -19,7 +19,7 @@ The graph is then used to run **Dijkstra's Algorithm**, which expands nodes in o
 | `dijkstra.py` | Full implementation of Dijkstra's Algorithm with API integration, caching, and interactive menu |
 | `graph_cache.json` | Pre-built cache of road distances between 15 preset Indian cities |
 | `.env.example` | Template for the environment file — copy to `.env` and add your API key to use custom cities |
-| `.gitignore` | Ensures `.env` is never committed to the repository |
+| `.gitignore` | Ensures `.env` is never committed to the repository, as it contains the private API key used locally  |
 
 ---
 ## Running the Program
