@@ -7,7 +7,7 @@ When actions have different costs in a state based search space, an obvious choi
 Real road distances between major Indian cities are fetched using the **Google Maps Distance Matrix API** and stored in a local cache (`graph_cache.json`) to avoid redundant API calls on every run.
 
 - On first run, the graph is built using **15 preset major Indian cities** and saved to cache.
-- On subsequent runs, the cache is loaded instantly — no API key required.
+- On subsequent runs, the cache is loaded instantly without the requirement of an API key.
 - Additional cities can be added at runtime via the menu, which triggers a targeted API call only for the new cities.
 
 The graph is then used to run **Dijkstra's Algorithm**, which expands nodes in order of cumulative path cost using a **min-heap priority queue**, guaranteeing the shortest road distance between any two cities.
