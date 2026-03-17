@@ -1,39 +1,23 @@
 # AI Programming Assignment 2 – CS2201
-This repository contains the code for the following question detailed in our Programming Assignment 2 for the CS-2201 course:
-    1. When actions have different costs in a state based search space, an obvious choice is to use best-first search where the evaluation function is the cost of the path from the root to the current node. This is called Dijkstra's algorithm by the theoretical computer science community, and Uniform-Cost Search by the AI community. Implement Dijkstra's algorithm for all the cities in India and their road distances.
+This repository currently contains the codes and documentations for the following questions detailed in our Programming Assignment 1 for the CS-2201 course:
+
+    1. When actions have different costs in a state based search space, an obvious choice is to use best-first search where the evaluation function is the cost of the path from the root to the current node. This is called Dijkstra’s algorithm by the theoretical computer science community, and uniform-cost search Uniform-cost search by the AI community. Implement the Dijkstra’s algorithm to all the cities in India and their Road distances. This info may be taken from open sources.
+    2. An Unmanned Ground Vehicle (UGV) is a robot that finds the optimal path from a given user-specified start node to a user-specified Goal node on a map of a small area in a battlefield (Eg 70x70 Kms). There are obstacles known a-priori. The density of the obstacles can be generated randomly with three different levels of density. Design an algorithm that makes the UGV to navigate through this grid space avoiding all the known obstacles to reach the goal by the shortest distance. Trace this path along with the Measures of Effectiveness.
+    3. In the above problem, we relax the condition that all obstacles are Static. In a real world, obstacles can be dynamic and not known a priori. How do you make the UGV navigate and find the optinal path in a dynamic obstacles environment.
+
+The codes and related documentation (if required) have been posted within the respective folders (named as per the question).
+
+To clone this repository, please use:
+```
+git clone https://github.com/sushanthlingala/SE24UCSE168_AI-ProgrammingAssignment2.git
+```
 
 ---
 ## Repository Structure
-The repository contains the following files:
-- **dijkstra_india_live.py**  
-  Contains the implementation of Dijkstra's algorithm (Uniform-Cost Search) over a graph of real road distances between 15 major Indian cities. Road distances are fetched live using the Google Maps Distance Matrix API and cached locally to avoid redundant API calls.
+The repository is organized into the following folders:
 
-- **graph_cache.json**  
-  A pre-built cache of road distances between the 15 preset cities. Loaded automatically on startup so the program works out of the box without requiring an API key.
-
-- **.env.example**  
-  A template for the environment file. Copy this to `.env` and fill in your own Google Maps API key if you wish to add cities beyond the preset list.
-
----
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sushanthlingala/SE24UCSE168_AI-ProgrammingAssignments2.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install requests python-dotenv
-   ```
-3. Run the program:
-   ```bash
-   python dijkstra_india_live.py
-   ```
-   The program will load the preset graph from `graph_cache.json` automatically. No API key is needed to use the preset cities.
-
-4. *(Optional)* To add cities beyond the preset list, copy `.env.example` to `.env` and fill in your Google Maps API key:
-   ```
-   GOOGLE_API_KEY=your_key_here
-   ```
+- **Q1-DijkstraIndia**  
+  Contains the implementation of Dijkstra's Algorithm (Uniform-Cost Search) over a graph of real road distances between major Indian cities, fetched using the Google Maps Distance Matrix API.
 
 ---
 ## Author
