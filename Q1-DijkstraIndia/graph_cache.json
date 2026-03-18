@@ -14,7 +14,9 @@
     "Nagpur",
     "Patna",
     "Bhubaneswar",
-    "Chandigarh"
+    "Chandigarh",
+    "Jodhpur",
+    "Amritsar"
   ],
   "graph": {
     "Delhi": [
@@ -73,6 +75,14 @@
       [
         "Chandigarh",
         243
+      ],
+      [
+        "Jodhpur",
+        664
+      ],
+      [
+        "Amritsar",
+        448
       ]
     ],
     "Mumbai": [
@@ -131,6 +141,14 @@
       [
         "Chandigarh",
         1628
+      ],
+      [
+        "Jodhpur",
+        961
+      ],
+      [
+        "Amritsar",
+        1657
       ]
     ],
     "Chennai": [
@@ -189,6 +207,14 @@
       [
         "Chandigarh",
         2502
+      ],
+      [
+        "Jodhpur",
+        2253
+      ],
+      [
+        "Amritsar",
+        2688
       ]
     ],
     "Kolkata": [
@@ -247,6 +273,14 @@
       [
         "Chandigarh",
         1782
+      ],
+      [
+        "Jodhpur",
+        1935
+      ],
+      [
+        "Amritsar",
+        1988
       ]
     ],
     "Bengaluru": [
@@ -305,6 +339,14 @@
       [
         "Chandigarh",
         2379
+      ],
+      [
+        "Jodhpur",
+        1925
+      ],
+      [
+        "Amritsar",
+        2566
       ]
     ],
     "Hyderabad": [
@@ -363,6 +405,14 @@
       [
         "Chandigarh",
         1805
+      ],
+      [
+        "Jodhpur",
+        1614
+      ],
+      [
+        "Amritsar",
+        1992
       ]
     ],
     "Ahmedabad": [
@@ -421,6 +471,14 @@
       [
         "Chandigarh",
         1128
+      ],
+      [
+        "Jodhpur",
+        453
+      ],
+      [
+        "Amritsar",
+        1139
       ]
     ],
     "Pune": [
@@ -479,6 +537,14 @@
       [
         "Chandigarh",
         1704
+      ],
+      [
+        "Jodhpur",
+        1087
+      ],
+      [
+        "Amritsar",
+        1783
       ]
     ],
     "Jaipur": [
@@ -537,6 +603,14 @@
       [
         "Chandigarh",
         474
+      ],
+      [
+        "Jodhpur",
+        334
+      ],
+      [
+        "Amritsar",
+        644
       ]
     ],
     "Lucknow": [
@@ -595,6 +669,14 @@
       [
         "Chandigarh",
         785
+      ],
+      [
+        "Jodhpur",
+        938
+      ],
+      [
+        "Amritsar",
+        991
       ]
     ],
     "Bhopal": [
@@ -653,6 +735,14 @@
       [
         "Chandigarh",
         1029
+      ],
+      [
+        "Jodhpur",
+        722
+      ],
+      [
+        "Amritsar",
+        1215
       ]
     ],
     "Nagpur": [
@@ -711,6 +801,14 @@
       [
         "Chandigarh",
         1379
+      ],
+      [
+        "Jodhpur",
+        1072
+      ],
+      [
+        "Amritsar",
+        1565
       ]
     ],
     "Patna": [
@@ -769,6 +867,14 @@
       [
         "Chandigarh",
         1302
+      ],
+      [
+        "Jodhpur",
+        1455
+      ],
+      [
+        "Amritsar",
+        1508
       ]
     ],
     "Bhubaneswar": [
@@ -827,6 +933,14 @@
       [
         "Chandigarh",
         2027
+      ],
+      [
+        "Jodhpur",
+        1908
+      ],
+      [
+        "Amritsar",
+        2232
       ]
     ],
     "Chandigarh": [
@@ -885,6 +999,146 @@
       [
         "Bhubaneswar",
         1967
+      ],
+      [
+        "Jodhpur",
+        750
+      ],
+      [
+        "Amritsar",
+        226
+      ]
+    ],
+    "Jodhpur": [
+      [
+        "Delhi",
+        660
+      ],
+      [
+        "Mumbai",
+        967
+      ],
+      [
+        "Chennai",
+        2252
+      ],
+      [
+        "Kolkata",
+        1871
+      ],
+      [
+        "Bengaluru",
+        1918
+      ],
+      [
+        "Hyderabad",
+        1612
+      ],
+      [
+        "Ahmedabad",
+        443
+      ],
+      [
+        "Pune",
+        1084
+      ],
+      [
+        "Jaipur",
+        333
+      ],
+      [
+        "Lucknow",
+        927
+      ],
+      [
+        "Bhopal",
+        710
+      ],
+      [
+        "Nagpur",
+        1061
+      ],
+      [
+        "Patna",
+        1452
+      ],
+      [
+        "Bhubaneswar",
+        1903
+      ],
+      [
+        "Chandigarh",
+        762
+      ],
+      [
+        "Amritsar",
+        727
+      ]
+    ],
+    "Amritsar": [
+      [
+        "Delhi",
+        450
+      ],
+      [
+        "Mumbai",
+        1664
+      ],
+      [
+        "Chennai",
+        2705
+      ],
+      [
+        "Kolkata",
+        1929
+      ],
+      [
+        "Bengaluru",
+        2569
+      ],
+      [
+        "Hyderabad",
+        2028
+      ],
+      [
+        "Ahmedabad",
+        1138
+      ],
+      [
+        "Pune",
+        1781
+      ],
+      [
+        "Jaipur",
+        652
+      ],
+      [
+        "Lucknow",
+        985
+      ],
+      [
+        "Bhopal",
+        1229
+      ],
+      [
+        "Nagpur",
+        1580
+      ],
+      [
+        "Patna",
+        1510
+      ],
+      [
+        "Bhubaneswar",
+        2173
+      ],
+      [
+        "Chandigarh",
+        228
+      ],
+      [
+        "Jodhpur",
+        714
       ]
     ]
   }

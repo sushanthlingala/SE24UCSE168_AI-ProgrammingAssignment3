@@ -214,9 +214,9 @@ while True:
         continue
 
     if choice==1:
-        print("\n  1. Low    (15%)")
-        print("  2. Medium (30%)")
-        print("  3. High   (50%)")
+        print("\n1. Low    (15%)")
+        print("2. Medium (30%)")
+        print("3. High   (50%)")
         try:
             dlvl = int(input("Enter obstacle density choice: "))
             if dlvl not in DENSITY:
