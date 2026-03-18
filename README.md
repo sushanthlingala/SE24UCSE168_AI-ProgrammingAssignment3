@@ -1,4 +1,4 @@
-# AI Programming Assignment 2 – CS2201
+# AI Programming Assignment 3 – CS2201
 This repository currently contains the codes and documentations for the following questions detailed in our Programming Assignment 2 for the CS-2201 course:
 
     1. When actions have different costs in a state based search space, an obvious choice is to use best-first search where the evaluation function is the cost of the path from the root to the current node. This is called Dijkstra's algorithm by the theoretical computer science community, and uniform-cost search Uniform-cost search by the AI community. Implement the Dijkstra's algorithm to all the cities in India and their Road distances. This info may be taken from open sources.
