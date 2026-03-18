@@ -4,6 +4,7 @@ This repository currently contains the codes and documentations for the followin
     1. When actions have different costs in a state based search space, an obvious choice is to use best-first search where the evaluation function is the cost of the path from the root to the current node. This is called Dijkstra's algorithm by the theoretical computer science community, and uniform-cost search Uniform-cost search by the AI community. Implement the Dijkstra's algorithm to all the cities in India and their Road distances. This info may be taken from open sources.
     2. An Unmanned Ground Vehicle (UGV) is a robot that finds the optimal path from a given user-specified start node to a user-specified Goal node on a map of a small area in a battlefield (Eg 70x70 Kms). There are obstacles known a-priori. The density of the obstacles can be generated randomly with three different levels of density. Design an algorithm that makes the UGV to navigate through this grid space avoiding all the known obstacles to reach the goal by the shortest distance. Trace this path along with the Measures of Effectiveness.
     3. In the above problem, we relax the condition that all obstacles are Static. In a real world, obstacles can be dynamic and not known a priori. How do you make the UGV navigate and find the optinal path in a dynamic obstacles environment.
+    
 The codes and related documentation (if required) have been posted within the respective folders (named as per the question).
 To clone this repository, please use:
 ```
@@ -17,6 +18,9 @@ The repository is organized into the following folders:
 
 - **Q2-UGVPathfinder**  
   Contains the implementation of an A* Search based pathfinding system for a UGV navigating a randomly generated battlefield grid with three configurable obstacle density levels.
+
+- **Q3-UGVDynamic**  
+  Contains the implementation of a Replanning A* Search based pathfinding system for a UGV navigating a battlefield grid where obstacles appear dynamically mid-traversal, unknown to the UGV a priori.
 
 ---
 ## Author
